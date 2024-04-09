@@ -18,7 +18,7 @@ CMD -
 .............................................................................
 
 
-# Append the following Hive environment variables to the .bashrc file:
+### Append the following Hive environment variables to the .bashrc file:
 
 export HIVE_HOME="$HOME/apache-hive-3.1.2-bin"
 export PATH=$PATH:$HIVE_HOME/bin
