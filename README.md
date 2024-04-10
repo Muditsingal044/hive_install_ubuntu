@@ -27,9 +27,16 @@ export PATH=$PATH:$HIVE_HOME/bin
 
 CMD - 
 
-1. $HIVE_HOME/bin/schematool -dbType derby -initSchema
+1. source ~/.bashrc
 
-2. hive 
+2. cd apache-hive-3.1.2-bin
+
+3. cd bin 
+
+
+4. $HIVE_HOME/bin/schematool -dbType derby -initSchema
+
+5. hive 
 
 
 .................................THANKYOU................................................. 
