@@ -20,18 +20,21 @@ CMD -
 
 ### Append the following Hive environment variables to the .bashrc file: ->
 
-export HIVE_HOME="$HOME/apache-hive-3.1.2-bin"
-export PATH=$PATH:$HIVE_HOME/bin
+1. export HIVE_HOME="$HOME/apache-hive-3.1.2-bin"
+2. export PATH=$PATH:$HIVE_HOME/bin
 
 .............................................................................
 
-CMD - 
+## CMD ->
 
-1. source ~/.bashrc
+1. hadoop fs -chmod g+w /tmp
+2. hadoop fs -mkdir -p /user/hive/warehouse
+3. hadoop fs -chmod g+w /user/hive/warehouse
+4. source ~/.bashrc
 
-2. cd apache-hive-3.1.2-bin
+5. cd apache-hive-3.1.2-bin
 
-3. cd bin 
+6. cd bin 
 
 
 4. $HIVE_HOME/bin/schematool -dbType derby -initSchema
