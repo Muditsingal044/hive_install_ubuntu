@@ -10,7 +10,7 @@ CMD -
 
 1. start-all.sh
 
-2. wget https://downloads.apache.org/hive       (go to this folder -> hive-3.1.3 ,and then  apache-hive-3.1.3-bin.tar.gz)
+2. wget https://downloads.apache.org/hive/hive-3.1.3/apache-hive-3.1.3-bin.tar.gz
 
 3. tar xzf apache-hive-3.1.3-bin.tar.gz
 
