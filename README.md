@@ -10,9 +10,9 @@ CMD -
 
 1. start-all.sh
 
-2. wget https://downloads.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz
+2. wget https://downloads.apache.org/hive       (go to this folder -> hive-3.1.3 ,and then  apache-hive-3.1.3-bin.tar.gz)
 
-3. tar xzf apache-hive-3.1.2-bin.tar.gz
+3. tar xzf apache-hive-3.1.3-bin.tar.gz
 
 
 .............................................................................
@@ -20,7 +20,7 @@ CMD -
 
 ### Append the following Hive environment variables to the .bashrc file: ->
 
-1. export HIVE_HOME="$HOME/apache-hive-3.1.2-bin"
+1. export HIVE_HOME="$HOME/apache-hive-3.1.3-bin"
 2. export PATH=$PATH:$HIVE_HOME/bin
 
 .............................................................................
