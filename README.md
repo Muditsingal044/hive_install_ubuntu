@@ -27,6 +27,7 @@ CMD -
 
 ## CMD ->
 
+0. hadoop fs -mkdir /tmp
 1. hadoop fs -chmod g+w /tmp
 2. hadoop fs -mkdir -p /user/hive/warehouse
 3. hadoop fs -chmod g+w /user/hive/warehouse
